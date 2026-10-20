@@ -18,8 +18,10 @@
 ## 安装
 
 ```bash
-npm install fateclear-solar-time
+npm install github:a18565517703-ctrl/fateclear-solar-time
 ```
+
+目前直接从 GitHub 安装，安装时会自动编译。npm 包稍后发布。
 
 ## 用法
 
@@ -54,7 +56,7 @@ solarTerm(1990, "立春").beijing; // "1990-02-04 10:13:58"
 ```json
 {
   "mcpServers": {
-    "fateclear-solar-time": { "command": "npx", "args": ["-y", "-p", "fateclear-solar-time", "fateclear-solar-time-mcp"] }
+    "fateclear-solar-time": { "command": "npx", "args": ["-y", "github:a18565517703-ctrl/fateclear-solar-time"] }
   }
 }
 ```
@@ -89,8 +91,10 @@ A small TypeScript library for **true (apparent) solar time**, **exact moments o
 ### Install & use
 
 ```bash
-npm install fateclear-solar-time
+npm install github:a18565517703-ctrl/fateclear-solar-time
 ```
+
+Installs straight from GitHub and builds on install. An npm package will follow later.
 
 ```ts
 import { trueSolarTime, solarTerms } from "fateclear-solar-time";
@@ -104,7 +108,7 @@ Options: `longitude` (east positive), `utcOffset` (hours, default 8), `dst` (`"a
 
 ### MCP server
 
-Add the config above to your MCP client. Tools: `true_solar_time`, `solar_terms`, `china_dst`.
+Add the config above to your MCP client (runs straight from GitHub, no npm package needed). Tools: `true_solar_time`, `solar_terms`, `china_dst`.
 
 ### Accuracy
 

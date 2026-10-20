@@ -5,20 +5,48 @@
   "license": "MIT",
   "author": "拨云 FateClear (https://fateclear.com)",
   "homepage": "https://fateclear.com/bazi",
-  "repository": { "type": "git", "url": "git+https://github.com/a18565517703-ctrl/fateclear-solar-time.git" },
-  "keywords": ["true solar time", "equation of time", "solar terms", "jieqi", "真太阳时", "节气", "china dst", "mcp", "bazi"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a18565517703-ctrl/fateclear-solar-time.git"
+  },
+  "keywords": [
+    "true solar time",
+    "equation of time",
+    "solar terms",
+    "jieqi",
+    "真太阳时",
+    "节气",
+    "china dst",
+    "mcp",
+    "bazi"
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
-  "bin": { "fateclear-solar-time-mcp": "./dist/mcp.js" },
-  "files": ["dist", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
-  "engines": { "node": ">=18" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "fateclear-solar-time-mcp": "./dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "prepublishOnly": "npm run build && npm test"
+    "prepublishOnly": "npm run build && npm test",
+    "prepare": "tsc -p tsconfig.json"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.0",
