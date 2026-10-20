@@ -1,0 +1,35 @@
+{
+  "name": "fateclear-solar-time",
+  "version": "0.1.0",
+  "description": "True solar time, exact 24 solar terms and China 1986–1991 DST, with an MCP server. By 拨云 FateClear.",
+  "license": "MIT",
+  "author": "拨云 FateClear (https://fateclear.com)",
+  "homepage": "https://fateclear.com/bazi",
+  "repository": { "type": "git", "url": "git+https://github.com/a18565517703-ctrl/fateclear-solar-time.git" },
+  "keywords": ["true solar time", "equation of time", "solar terms", "jieqi", "真太阳时", "节气", "china dst", "mcp", "bazi"],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "bin": { "fateclear-solar-time-mcp": "./dist/mcp.js" },
+  "files": ["dist", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "astronomy-engine": "^2.1.19",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "lunar-javascript": "^1.7.7",
+    "tyme4ts": "^1.5.3",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.0"
+  }
+}
