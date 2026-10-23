@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">FateClear Solar Time — Apparent solar time &amp; solar term queries.</title>
+  <desc id="description">Original social sharing artwork by xiaoyu312: a solar disk, concentric paths and an orbital marker. This is abstract artwork, not a product screenshot.</desc>
+  <!-- Brand palette: cream #F5F2EB, cobalt #2452CF, navy #1B2D60, orange #F2A15F. -->
+  <rect width="1280" height="640" fill="#F5F2EB"/>
+  <rect x="28" y="28" width="1224" height="584" fill="none" stroke="#DDD8CE" stroke-width="2"/>
+  <!-- Shared alignment edge and safe margin: x=88; all text stays inside 64px. -->
+  <rect x="88" y="90" width="38" height="6" rx="3" fill="#2452CF"/>
+  <text x="146" y="103" font-family="Arial" font-size="23" font-weight="bold" fill="#2452CF">TYPESCRIPT LIBRARY</text>
+  <text x="88" y="236" font-family="Arial" font-size="90" font-weight="bold" fill="#1B2D60">FateClear</text>
+  <text x="88" y="328" font-family="Arial" font-size="90" font-weight="bold" fill="#1B2D60">Solar Time</text>
+  <text x="92" y="409" font-family="Arial" font-size="36" fill="#1B2D60">Apparent solar time</text>
+  <text x="92" y="455" font-family="Arial" font-size="36" fill="#1B2D60">&amp; solar term queries.</text>
+  <rect x="88" y="528" width="6" height="32" rx="3" fill="#2452CF"/>
+  <text x="110" y="554" font-family="Arial" font-size="29" font-weight="bold" fill="#1B2D60">xiaoyu312</text>
+  <!-- Original abstract motif; no UI or business data. -->
+  <g aria-hidden="true">
+    <circle cx="994" cy="307" r="176" fill="#E4E9F7"/>
+    <circle cx="993" cy="306" r="124" fill="none" stroke="#2452CF" stroke-width="25"/>
+    <circle cx="993" cy="306" r="78" fill="#F2A15F"/>
+    <ellipse cx="993" cy="306" rx="164" ry="56" fill="none" stroke="#1B2D60" stroke-width="4" transform="rotate(-30 993 306)"/>
+    <path d="M993 148V172M993 440V464M835 306H859M1127 306H1151" fill="none" stroke="#1B2D60" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1125" cy="230" r="18" fill="#2452CF" stroke="#F5F2EB" stroke-width="5"/>
+    <path d="M809 466H952" fill="none" stroke="#2452CF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="809" cy="466" r="11" fill="#F2A15F"/>
+    <circle cx="1159" cy="148" r="15" fill="#F2A15F"/>
+    <path d="M829 139V161M818 150H840" fill="none" stroke="#2452CF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
